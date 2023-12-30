@@ -56,41 +56,6 @@
       ul.contact li {float: center;}
     }
 
-    .split {
-        height: 60%;
-        width: 50%;
-        top: 5;
-        padding-top: 20px;
-    }
-
-    .left {
-        left: 0;
-        text-align: center;
-    }
-
-    .right {
-        right: 0;
-    }
-
-    .centered {
-        position: absolute;
-        top: 18%;
-        left: 50%;
-        text-align: center;
-    }
-
-    .centered {
-        position: absolute;
-        top: 18%;
-        right: 50%;
-        text-align: center;
-    }
-
-    /* .img {
-        width: 50%;
-        box-shadow: -5px -5px #a8139c, -10px -10px #be43b5, -15px -15px #d489ce, -20px -20px #eac4e7;
-    } */
-
     .responsive {
         width: 100%;
         height: auto;
@@ -169,19 +134,6 @@
         border-style:solid;
         border-color: black;
         background-color: #eac4e6;
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding-top: 10%;
-        padding-left: 10%;
-        a {text-decoration: none; color: #000000;}
-      }
-
-      .contact2{
-        font-size: 50px;
-        color: black;
-        font-family:'Montserrat';
-        height: 100px;
-        background-color: #ffffff;
         background-size: contain;
         background-repeat: no-repeat;
         padding-top: 10%;
