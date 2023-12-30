@@ -1,0 +1,115 @@
+body {margin: 0;}
+    
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 9px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 24px;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #fff;}
+
+ul.topnav li a.active {background-color: #fff;}
+
+ul.topnav li.right {float: right;}
+
+ul.contact {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 9px;
+    overflow: hidden;
+    bottom: 0;
+    background-color: #fff;
+  }
+  
+  ul.contact li {float: right;}
+  
+  ul.contact li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 24px;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.img {
+    float: left;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.about{
+        font-size: 5vw;
+        color: black;
+        font-family:'Montserrat';
+        height: 1200px;
+        border-width:1px;
+        border-style:solid;
+        border-color: black;
+        background-color: #CA6CC0;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 5%;
+        padding-left: 5%;
+        a {text-decoration: none; color: #000000;}
+    }
+
+/*       .contact2{
+        font-size: 50px;
+        color: black;
+        font-family:'Montserrat';
+        height: 100px;
+        background-color: #ffffff;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 10%;
+        padding-left: 5%;
+        a {text-decoration: none; color: #000000;}
+      } */
+
+      @media screen and (max-width: 600px) {
+        ul.topnav li.right, 
+        ul.topnav li {float: none;}
+        .column { width: 100%;}
+        ul.contact li {float: center;}
+      }
+
+      @media screen and (max-width: 900px) {
+        .about {height: 50%}
+      }
